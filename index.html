@@ -14,6 +14,11 @@
       <li><a href="about.html">About Us</a></li>
       <li><a href="contact.html">Contact Us</a></li>
     </ul>
+    <div class="nav-search">
+      <input type="text" id="search-input" placeholder="Search destinations...">
+      <button id="search-btn" type="button">Search</button>
+      <button id="clear-btn" type="button">Clear</button>
+    </div>
   </nav>
 
   <header class="hero">
@@ -24,53 +29,19 @@
   </header>
 
   <main>
-    <section class="recommendations">
+    <section class="recommendations" data-type="beaches">
       <h2>Beach Recommendations</h2>
-      <div class="cards">
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" alt="Maldives beach">
-          <h3>Maldives</h3>
-          <p>Crystal-clear water and white sand make the Maldives a tropical paradise.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600" alt="Bora Bora beach">
-          <h3>Bora Bora</h3>
-          <p>Overwater bungalows and turquoise lagoons in French Polynesia.</p>
-        </article>
-      </div>
+      <div class="cards" id="beach-cards"></div>
     </section>
 
-    <section class="recommendations">
+    <section class="recommendations" data-type="temples">
       <h2>Temple Recommendations</h2>
-      <div class="cards">
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1532186651327-6ac23687d189?w=600" alt="Angkor Wat temple">
-          <h3>Angkor Wat, Cambodia</h3>
-          <p>The largest religious monument in the world, a Khmer architectural marvel.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1528181304800-259b08848526?w=600" alt="Kyoto temple">
-          <h3>Kinkaku-ji, Kyoto</h3>
-          <p>The Golden Pavilion, a Zen Buddhist temple covered in gold leaf.</p>
-        </article>
-      </div>
+      <div class="cards" id="temple-cards"></div>
     </section>
 
-    <section class="recommendations">
-      <h2>Country Recommendation</h2>
-      <h3>Japan</h3>
-      <div class="cards">
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?w=600" alt="Mount Fuji">
-          <h3>Mount Fuji</h3>
-          <p>Japan's iconic snow-capped peak, perfect for hiking and photography.</p>
-        </article>
-        <article class="card">
-          <img src="https://images.unsplash.com/photo-1545569310-15c45fa18a3c?w=600" alt="Tokyo skyline">
-          <h3>Tokyo Skyline</h3>
-          <p>A neon-lit metropolis blending tradition with cutting-edge modernity.</p>
-        </article>
-      </div>
+    <section class="recommendations" data-type="countries">
+      <h2>Country Recommendation: Japan</h2>
+      <div class="cards" id="country-cards"></div>
     </section>
   </main>
 

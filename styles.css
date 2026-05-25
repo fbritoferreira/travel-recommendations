@@ -28,6 +28,27 @@ body {
 }
 .nav-links a:hover, .nav-links a.active { color: #fff; }
 
+.nav-search { display: flex; gap: 0.5rem; align-items: center; }
+.nav-search input {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font: inherit;
+  min-width: 200px;
+}
+.nav-search button {
+  padding: 0.4rem 0.9rem;
+  border: none;
+  border-radius: 4px;
+  background: #2c5282;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+.nav-search button:hover { background: #4299e1; }
+#clear-btn { background: #718096; }
+#clear-btn:hover { background: #a0aec0; }
+
 .hero {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: #fff;
